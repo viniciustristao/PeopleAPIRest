@@ -1,4 +1,4 @@
-package api.project.curso.person.PersonAPI.controller;
+package api.project.curso.person.person.api.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
