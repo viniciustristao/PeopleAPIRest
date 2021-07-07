@@ -28,7 +28,6 @@ public class Person {
     @Column(nullable = false, unique = true)
     private String CPF;
 
-    @Column(nullable = false)
     private LocalDate birthDate;
 
     @OneToMany(fetch = FetchType.LAZY, cascade = {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REMOVE})
